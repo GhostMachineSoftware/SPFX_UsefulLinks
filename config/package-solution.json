@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-usefullinks-client-side-solution",
+    "id": "72304ae5-5645-4529-9118-2d2ce0a97b72",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [{
+      "title": "UsefulLinks",
+      "description": "Useful Links app",
+      "id": "cd4e595e-057c-41ca-baeb-80cb324def2b",
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ],
+        "elementFiles":[
+          "schema.xml"
+        ]
+      }
+    }]     
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-usefullinks.sppkg"
+  }
+}

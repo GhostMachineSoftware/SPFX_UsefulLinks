@@ -1,0 +1,26 @@
+.card-header{background-color:#ddddeb!important}
+.card-header h4{text-decoration:none; color:#545487!important}
+.card-header :hover {background-color:#7676b8!important; text-decoration: none!important}
+.card-header :hover a {color:white!important; text-decoration: none!important}
+.card-body{background-color:white!important;color:#545487!important}
+
+.accordionToggle:after {
+    position: relative;
+    top:-20px;
+    left:-10px;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1.1em;
+    content: "\e114";
+    float: right;
+    color: white !important;
+}
+
+.accordionToggle.collapsed:after {
+    position: relative;
+    top:-20px;
+    left:-10px;    
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1.1em;
+    content: "\e080";
+    color: white !important;
+}

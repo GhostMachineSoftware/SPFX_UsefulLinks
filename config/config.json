@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "useful-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/usefulLinks/UsefulLinksWebPart.js",
+          "manifest": "./src/webparts/usefulLinks/UsefulLinksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path":"./node_modules/jquery/dist/jquery.min.js",  
+      "globalName": "jquery"
+    },
+    "popper.js": {
+      "path":"./node_modules/popper.js/dist/popper.min.js",
+      "globalName": "popper",
+      "globalDependencies": ["bootstrap"]
+    },    
+    "bootstrap": {
+      "path": "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": ["jquery"]
+    }
+  },
+  "localizedResources": {
+    "UsefulLinksWebPartStrings": "lib/webparts/usefulLinks/loc/{locale}.js"
+  }
+}

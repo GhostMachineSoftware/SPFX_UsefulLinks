@@ -28,7 +28,7 @@ export default class UsefulLinksWebPart extends BaseClientSideWebPart<IUsefulLin
 
   public render(): void {
 
-    let bootstrapCssURL = "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+    let bootstrapCssURL = "./node_modules/bootstrap/dist/css/bootstrap.min.css";
     //let fontawesomeCssURL = "/node_modules/@fortawesom/fontawesome-free/css/all.min.css";
     //let cssURL = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
     SPComponentLoader.loadCss(bootstrapCssURL);

@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "da8953e9-67cb-4ee5-af60-1770478fcf60",
+  "id": "43b64db3-d9e1-48d0-bfb1-1dca7a1497d4",
   "alias": "UsefulLinksWebPart",
   "componentType": "WebPart",
 
@@ -21,7 +21,9 @@
     "description": { "default": "UsefulLinks description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "UsefulLinks"
+      "description": "Useful Links",
+      "EditLinks":"Links",  
+      "WebpartTitle":"Useful Links"      
     }
   }]
 }

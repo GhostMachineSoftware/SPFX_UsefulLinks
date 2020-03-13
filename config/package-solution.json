@@ -1,17 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-usefullinks-client-side-solution",
-    "id": "72304ae5-5645-4529-9118-2d2ce0a97b72",
-    "version": "1.0.0.0",
+    "name": "Useful Links",
+    "id": "91e99b63-b98b-4f89-9242-ef8e172eb5c4",
+    "version": "1.0.0.4",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "features": [{
-      "title": "UsefulLinks",
-      "description": "Useful Links app",
-      "id": "cd4e595e-057c-41ca-baeb-80cb324def2b",
-      "version": "1.0.0.0",
+      "title": "useful links",
+      "description": "useful-links-app-client-side-solution",
+      "id": "8cb5a958-363c-4de5-8a86-6e577933fbe6",
+      "version": "1.0.0.4",
       "assets": {
         "elementManifests": [
           "elements.xml"
@@ -20,9 +19,9 @@
           "schema.xml"
         ]
       }
-    }]     
+    }]
   },
   "paths": {
-    "zippedPackage": "solution/spfx-usefullinks.sppkg"
+    "zippedPackage": "solution/useful-links-app.sppkg"
   }
 }

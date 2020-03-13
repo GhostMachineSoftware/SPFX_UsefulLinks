@@ -13,18 +13,17 @@
   },
   "externals": {
     "jquery": {
-      "path":"./node_modules/jquery/dist/jquery.min.js",  
+      "path": "https://code.jquery.com/jquery-3.4.1.min.js",
       "globalName": "jquery"
     },
     "popper.js": {
-      "path":"./node_modules/popper.js/dist/popper.min.js",
-      "globalName": "popper",
-      "globalDependencies": ["bootstrap"]
-    },    
+      "path": "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
+      "globalName": "popper.js"
+    },
     "bootstrap": {
-      "path": "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "path": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
       "globalName": "bootstrap",
-      "globalDependencies": ["jquery"]
+      "globalDependencies": ["popper.js"]
     }
   },
   "localizedResources": {

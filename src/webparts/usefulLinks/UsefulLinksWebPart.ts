@@ -84,6 +84,7 @@ export default class UsefulLinksWebPart extends BaseClientSideWebPart<IUsefulLin
     let linkCount: number=0;
     let groupID=1;
     console.log(currentWebUrl); 
+
     items.forEach((item: ISPList) => {
       let linkGroup: string=item.LinkGroup;
       let linkTeam: string=item.LinkTeam;
@@ -149,6 +150,7 @@ public render(): void {
     let fontawesomeCssURL = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/regular.min.css";
     SPComponentLoader.loadCss(bootstrapCssURL);
     SPComponentLoader.loadCss(fontawesomeCssURL);
+    
     this.domElement.innerHTML = `
     <div class="usefulLinksSection">
       <div class="row linkContainer" id="usefulLinks">
